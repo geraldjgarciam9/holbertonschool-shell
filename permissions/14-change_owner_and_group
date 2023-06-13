@@ -1,2 +1,2 @@
 #!/bin/bash
-chown vincent:staff -R 775 /tmp \
+su chown vincent:staff -R 775 /tmp \
