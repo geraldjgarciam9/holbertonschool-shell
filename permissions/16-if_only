@@ -1,2 +1,2 @@
 #!/bin/bash
-chonw -h -R --from= guillaume vincent hello\
+chown --from= guillaume vincent hello\
