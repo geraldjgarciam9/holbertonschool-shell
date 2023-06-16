@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /etc/passwd | awk -F ':' '{print "Usuario:", $1, "\tDirectorio de inicio:", $6}' | sort -k1,1 \
+cut -d: -f1 /etc/passwd | sort | paste -d: -/etc/passwd | cut f1,6 \
